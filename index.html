@@ -29,7 +29,7 @@
         crossorigin="anonymous"></script>
 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    <title>Photo Portfolio</title>
+    <title>Portfolio</title>
 </head>
 
 <body>
@@ -373,55 +373,135 @@
     <div class="container-fluid bg-dark" id="projects">
         <div class="row">
             <div class="col-md-3 offset-1">
-                <div class="jumbotron text-light bg-dark">
+                <div class="jumbotron text-light bg-dark projects">
                     <h1 class="display-4">Projects</h1>
-                    <p class="lead">Projects I have participated in/created by me</p>
+                    <p class="lead">Projects I have participated ine</p>
+                    <p class="lead">Projects I have created</p>
                 </div>
             </div>
-            <div class="col-md project-cards">
-                <section>
+
+            <!-- ======================== FIRST PROJECTS COL ================================== -->
+            <div class="col-md project-cards" id="first-p-col">
 
                     <div class="card" style="width: 18rem;">
-                        <img src="https://images.unsplash.com/photo-1559638849-71cafc038a2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1275&q=80"
-                            class="card-img-top myfade" alt="img">
+                        <img src="assets\images\eat_da_burger.png" class="card-img-top myfade" alt="img">
                         <div class="card-body">
-                            <h5 class="card-title">Doggie Date</h5>
-                            <p class="card-text">Plan a dog-friendly date with your best friend. Find local restaurants
-                                that
-                                allow your best friend to tag along and then get directions to the friendliest parks in
-                                town.</p>
-                            <a href="https://robert1kowalski.github.io/Project-1/" target="_blank"
-                                class="btn btn-secondary">Plan your dog-friendly day!</a>
+                            <h5 class="card-title">Eat-Da-Burger!</h5>
+                            <p class="card-text">Eat tasty binary burgers.</p>
+                            <a href="https://sheltered-inlet-57209.herokuapp.com/" target="_blank"
+                                class="btn btn-secondary cardbutton">Nom Nom Nom</a>
                         </div>
                     </div>
                     <div class="card" style="width: 18rem;">
-                        <img src="https://images.unsplash.com/photo-1559638849-71cafc038a2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1275&q=80"
-                            class="card-img-top myfade" alt="img">
+                        <img src="assets\images\train_timetable.png" class="card-img-top myfade" alt="img">
                         <div class="card-body">
-                            <h5 class="card-title">Doggie Date</h5>
-                            <p class="card-text">Plan a dog-friendly date with your best friend. Find local restaurants
-                                that
-                                allow your best friend to tag along and then get directions to the friendliest parks in
-                                town.</p>
-                            <a href="https://robert1kowalski.github.io/Project-1/" target="_blank"
-                                class="btn btn-secondary">Plan your dog-friendly day!</a>
+                            <h5 class="card-title">Train Scheduler</h5>
+                            <p class="card-text">Create train schedules with data persistance for the world to see.</p>
+                            <a href="https://dagamo94.github.io/train-scheduler/" target="_blank"
+                                class="btn btn-secondary cardbutton">Schedule some trains</a>
                         </div>
                     </div>
                     <div class="card" style="width: 18rem;">
-                        <img src="https://images.unsplash.com/photo-1559638849-71cafc038a2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1275&q=80"
-                            class="card-img-top myfade" alt="img">
-                        <div class="card-body">
-                            <h5 class="card-title">Doggie Date</h5>
-                            <p class="card-text">Plan a dog-friendly date with your best friend. Find local restaurants
-                                that
-                                allow your best friend to tag along and then get directions to the friendliest parks in
-                                town.</p>
-                            <a href="https://robert1kowalski.github.io/Project-1/" target="_blank"
-                                class="btn btn-secondary">Plan your dog-friendly day!</a>
+                            <img src="https://github.com/dagamo94/liri-node-app/raw/master/screenshots/movie-1.png"
+                                class="card-img-top myfade" alt="img">
+                            <div class="card-body">
+                                <h5 class="card-title">Liri Bot</h5>
+                                <p class="card-text">Is using Siri too basic for you? Worry no more! Liri Bot will run from the
+                                    CLI and execute tasks any programmer would die for while coding. Look up movie song, and
+                                    concert info directly from the CLI.</p>
+                                <a href="https://github.com/dagamo94/liri-node-app" target="_blank"
+                                    class="btn btn-secondary cardbutton">Replace Siri!</a>
+                            </div>
                         </div>
-                    </div>
-                </section>
             </div>
+
+            <!-- =============== SECOND PROJECTS COL =========================== -->
+
+            <div class="col-md project-cards">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1508609540374-67d1601ba520?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=932&q=80"
+                        class="card-img-top myfade" alt="img">
+                    <div class="card-body">
+                        <h5 class="card-title">Doggie Date</h5>
+                        <p class="card-text">Plan a dog-friendly date with your best friend. Find local restaurants
+                            that
+                            allow your best friend to tag along and then get directions to the friendliest parks in
+                            town.</p>
+                        <a href="https://robert1kowalski.github.io/Project-1/" target="_blank"
+                            class="btn btn-secondary cardbutton">Plan your dog-friendly day!</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="assets\images\crystal_collector.png" class="card-img-top myfade" alt="img">
+                    <div class="card-body">
+                        <h5 class="card-title">Crystal Collector</h5>
+                        <p class="card-text">Can you collect the right amount of Crystals?</p>
+                        <a href="https://dagamo94.github.io/unit-4-game/" target="_blank"
+                            class="btn btn-secondary cardbutton">Collect some Crystals!</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="assets\images\friend_finder.png" class="card-img-top myfade" alt="img">
+                    <div class="card-body">
+                        <h5 class="card-title">Friend Finder</h5>
+                        <p class="card-text">No need to go out and meet new people. Use Friend FInder to get matched
+                            with the only the most compatible people online!</p>
+                        <a href="https://protected-garden-81602.herokuapp.com/" target="_blank"
+                            class="btn btn-secondary cardbutton">Meet new friends!</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ====================== THIRD PROJECTS COL ================================ -->
+            <div class="col-md project-cards">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets\images\todo.png" class="card-img-top myfade" alt="img">
+                    <div class="card-body">
+                        <h5 class="card-title">ToDo WebApp (No Data Persistance)</h5>
+                        <p class="card-text">A simple yet beautiful ToDo WebApp.</p>
+                        <a href="https://dagamo94.github.io/To-Do-WebApp/" target="_blank"
+                            class="btn btn-secondary cardbutton">ToDos</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="assets\images\giphy.png" class="card-img-top myfade" alt="img">
+                    <div class="card-body">
+                        <h5 class="card-title">Giphy Search</h5>
+                        <p class="card-text">Looking for some fun induced images? Look no further! Search for GIFs to
+                            share with your buddies.</p>
+                        <a href="https://dagamo94.github.io/giphy-hw/" target="_blank"
+                            class="btn btn-secondary cardbutton">Look up some GIFs!</a>
+                    </div>
+                </div>
+                
+
+            </div>
+
+            <!-- ============================== FOURTH PROJECTS COL ========================= -->
+            <div class="col-md project-cards">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets\images\patatap.png" class="card-img-top myfade" alt="img">
+                    <div class="card-body">
+                        <h5 class="card-title">Musical Dots</h5>
+                        <p class="card-text">Quirky musical game similar to Patatap. Press any keyboard keys to create a
+                            sound.</p>
+                        <a href="https://dagamo94.github.io/patatap-clone/" target="_blank"
+                            class="btn btn-secondary cardbutton">Creat some Beats!</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://github.com/dagamo94/bamazon/raw/master/screenshots/manager4.png"
+                        class="card-img-top myfade" alt="img">
+                    <div class="card-body">
+                        <h5 class="card-title">Bamazon</h5>
+                        <p class="card-text">What's better than Amazon? A CLI based emulation of the popular e-tailer!
+                        </p>
+                        <a href="https://github.com/dagamo94/bamazon" target="_blank"
+                            class="btn btn-secondary cardbutton">Get some deals!</a>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
     <!-- =========================================================================================== -->

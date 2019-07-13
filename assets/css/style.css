@@ -49,7 +49,7 @@
 }
 
 .card{
-    margin: 40px 20px;
+    margin: 20px -15px;
     border: none;
     float: left;
 }
@@ -58,8 +58,20 @@
     margin-left: 200px;
 }
 
-.project-cards{
+
+#first-p-col{
     border-left: 2px solid white;
+    padding-left: 60px;
+}
+
+.project-cards{
+    padding-left: 40px;
+    background: rgb(75, 75, 75);
+}
+
+.cardbutton{
+    display: block;
+    margin: auto;
 }
 
 /* h3{
